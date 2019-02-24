@@ -21,6 +21,7 @@
     "ios": "9.0"
   },
   "source_files": "EFFlukyProgressHUD/Classes/**/*",
+  "resources": "EFFlukyProgressHUD/Assets/*.xcassets",
   "dependencies": {
     "MBProgressHUD": [
       "~> 1.1.0"

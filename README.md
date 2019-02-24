@@ -1,6 +1,6 @@
 # EFFlukyProgressHUD
 
-[![CI Status](https://img.shields.io/travis/EyreFree/EFFlukyProgressHUD.svg?style=flat)](https://travis-ci.org/EyreFree/EFFlukyProgressHUD)
+[![CI Status](https://img.shields.io/travis/EFPrefix/EFFlukyProgressHUD.svg?style=flat)](https://travis-ci.org/EFPrefix/EFFlukyProgressHUD)
 [![Version](https://img.shields.io/cocoapods/v/EFFlukyProgressHUD.svg?style=flat)](https://cocoapods.org/pods/EFFlukyProgressHUD)
 [![License](https://img.shields.io/cocoapods/l/EFFlukyProgressHUD.svg?style=flat)](https://cocoapods.org/pods/EFFlukyProgressHUD)
 [![Platform](https://img.shields.io/cocoapods/p/EFFlukyProgressHUD.svg?style=flat)](https://cocoapods.org/pods/EFFlukyProgressHUD)

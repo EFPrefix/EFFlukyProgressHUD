@@ -7,18 +7,20 @@
 //
 
 import UIKit
+import EFFlukyProgressHUD
+import Fluky
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+        // 1.
+        EFFlukyProgressHUD.showAdded(to: self.view, animated: true)
 
+        // 2.
+        // let hub: EFFlukyProgressHUD = EFFlukyProgressHUD(flukyType: FlukyType.single)
+        // self.view.addSubview(hub)
+        // hub.show(animated: true)
+    }
 }
-

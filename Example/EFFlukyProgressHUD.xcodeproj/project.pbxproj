@@ -28,8 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13908D92F7E6009B2ECF1B11 /* Pods-EFFlukyProgressHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFFlukyProgressHUD_Example.debug.xcconfig"; path = "Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1CDA7BB62F2996A9EFDFEC23 /* Pods-EFFlukyProgressHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFFlukyProgressHUD_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EFFlukyProgressHUD_Tests/Pods-EFFlukyProgressHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		023A5F6A900DA0D38FE82AE8 /* Pods-EFFlukyProgressHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFFlukyProgressHUD_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4AA8C203FA04FF9B714F5337 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EFFlukyProgressHUD_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFFlukyProgressHUD_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +43,10 @@
 		62A0B9FB84575AAA3D71AF70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8C4A1B87F0B4D7F00F979646 /* Pods_EFFlukyProgressHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFFlukyProgressHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4BC22496DE864224FADB37 /* Pods_EFFlukyProgressHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFFlukyProgressHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D311E1EC375E6B0881F48CAF /* EFFlukyProgressHUD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EFFlukyProgressHUD.podspec; path = ../EFFlukyProgressHUD.podspec; sourceTree = "<group>"; };
-		E60F95F73FD19A9E3867CC32 /* Pods-EFFlukyProgressHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFFlukyProgressHUD_Example.release.xcconfig"; path = "Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FB95F7B8DEB533A969DBBB93 /* Pods-EFFlukyProgressHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFFlukyProgressHUD_Tests.release.xcconfig"; path = "Target Support Files/Pods-EFFlukyProgressHUD_Tests/Pods-EFFlukyProgressHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C7CEAE25549C571CDDB9CFE0 /* Pods-EFFlukyProgressHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFFlukyProgressHUD_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EFFlukyProgressHUD_Tests/Pods-EFFlukyProgressHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D311E1EC375E6B0881F48CAF /* EFFlukyProgressHUD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EFFlukyProgressHUD.podspec; path = ../EFFlukyProgressHUD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EBB7A66C2BCE3281E3A82EE8 /* Pods-EFFlukyProgressHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFFlukyProgressHUD_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EFFlukyProgressHUD_Tests/Pods-EFFlukyProgressHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FD8C61ECD2211F72358DC921 /* Pods-EFFlukyProgressHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFFlukyProgressHUD_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +69,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D1EABCFC9FB9B4661258D81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				023A5F6A900DA0D38FE82AE8 /* Pods-EFFlukyProgressHUD_Example.debug.xcconfig */,
+				FD8C61ECD2211F72358DC921 /* Pods-EFFlukyProgressHUD_Example.release.xcconfig */,
+				C7CEAE25549C571CDDB9CFE0 /* Pods-EFFlukyProgressHUD_Tests.debug.xcconfig */,
+				EBB7A66C2BCE3281E3A82EE8 /* Pods-EFFlukyProgressHUD_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +87,8 @@
 				607FACD21AFB9204008FA782 /* Example for EFFlukyProgressHUD */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				8982C3AA73B12268AE26E3D9 /* Pods */,
 				F16E7642424FF5295BE47DB9 /* Frameworks */,
+				2D1EABCFC9FB9B4661258D81 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +107,8 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for EFFlukyProgressHUD";
@@ -139,17 +150,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		8982C3AA73B12268AE26E3D9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				13908D92F7E6009B2ECF1B11 /* Pods-EFFlukyProgressHUD_Example.debug.xcconfig */,
-				E60F95F73FD19A9E3867CC32 /* Pods-EFFlukyProgressHUD_Example.release.xcconfig */,
-				1CDA7BB62F2996A9EFDFEC23 /* Pods-EFFlukyProgressHUD_Tests.debug.xcconfig */,
-				FB95F7B8DEB533A969DBBB93 /* Pods-EFFlukyProgressHUD_Tests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		F16E7642424FF5295BE47DB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				66209207341C4B3678424044 /* [CP] Embed Pods Frameworks */,
+				64D54BA6F70079B291BEF484 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,12 +212,10 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = P3X2725LYY;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = P3X2725LYY;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -285,7 +283,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66209207341C4B3678424044 /* [CP] Embed Pods Frameworks */ = {
+		64D54BA6F70079B291BEF484 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,7 +291,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EFFlukyProgressHUD/EFFlukyProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Fluky/Fluky.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -308,7 +306,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A21CE2CEE1549C5F93C91047 /* [CP] Check Pods Manifest.lock */ = {
@@ -484,10 +482,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13908D92F7E6009B2ECF1B11 /* Pods-EFFlukyProgressHUD_Example.debug.xcconfig */;
+			baseConfigurationReference = 023A5F6A900DA0D38FE82AE8 /* Pods-EFFlukyProgressHUD_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P3X2725LYY;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EFFlukyProgressHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -500,10 +498,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E60F95F73FD19A9E3867CC32 /* Pods-EFFlukyProgressHUD_Example.release.xcconfig */;
+			baseConfigurationReference = FD8C61ECD2211F72358DC921 /* Pods-EFFlukyProgressHUD_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P3X2725LYY;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EFFlukyProgressHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -516,9 +514,9 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CDA7BB62F2996A9EFDFEC23 /* Pods-EFFlukyProgressHUD_Tests.debug.xcconfig */;
+			baseConfigurationReference = C7CEAE25549C571CDDB9CFE0 /* Pods-EFFlukyProgressHUD_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = P3X2725LYY;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -539,9 +537,9 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB95F7B8DEB533A969DBBB93 /* Pods-EFFlukyProgressHUD_Tests.release.xcconfig */;
+			baseConfigurationReference = EBB7A66C2BCE3281E3A82EE8 /* Pods-EFFlukyProgressHUD_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = P3X2725LYY;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
