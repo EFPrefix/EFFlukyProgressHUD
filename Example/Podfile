@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EFFlukyProgressHUD_Example' do
+  pod 'EFFlukyProgressHUD', :path => '../'
+
+  target 'EFFlukyProgressHUD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
