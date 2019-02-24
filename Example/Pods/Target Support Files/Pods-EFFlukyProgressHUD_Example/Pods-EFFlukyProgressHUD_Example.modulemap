@@ -1,0 +1,6 @@
+framework module Pods_EFFlukyProgressHUD_Example {
+  umbrella header "Pods-EFFlukyProgressHUD_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

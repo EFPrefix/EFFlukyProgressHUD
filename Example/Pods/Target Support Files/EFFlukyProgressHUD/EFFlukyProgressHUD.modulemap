@@ -1,0 +1,6 @@
+framework module EFFlukyProgressHUD {
+  umbrella header "EFFlukyProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

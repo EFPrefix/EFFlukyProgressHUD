@@ -1,0 +1,1267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002DC3959117FF788E463526C2AE7B03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA0DBC4D9887B6DE7C6C976C5A4D216 /* CoreGraphics.framework */; };
+		09DA51F4628E6AF4FC58A3CBD3E207E9 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4ABF711F3BACEC15ED22D26B5E0401 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11579B0C69C5D5B98DB94C28E909651D /* NSObject+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D84DC7ECA9992E6170F2DD94D25E7 /* NSObject+Create.swift */; };
+		1AD8E257D087516704B6C4B07796BFE8 /* Fluky-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69042B581B0B5794D86AAAD95575081B /* Fluky-dummy.m */; };
+		299EED930DBDD2D9E306A18F079FD534 /* Sequence+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE872E841F368E8AD9E7371B43B761CB /* Sequence+Transform.swift */; };
+		2C385887C65B8920B0BFCC1EB9EF65B5 /* FlukyProtocol+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C22A38CFEDD456B2F0863339A42F368 /* FlukyProtocol+Animate.swift */; };
+		2D637FCCE683E1776436B9209E80DFC4 /* Fluky.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A8ED5FC57D854783626600A4DFB6B0 /* Fluky.swift */; };
+		3747FD9C2B725D6EFE7D72B9A101F714 /* Pods-EFFlukyProgressHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BCD3E22B42DCE1B7B7D1061D292907 /* Pods-EFFlukyProgressHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3891F261797486C37810BB07EB059948 /* Pods-EFFlukyProgressHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1180EE6E68C981810CECE2DD8D8FFC /* Pods-EFFlukyProgressHUD_Example-dummy.m */; };
+		38D2D04FED47DB5069CAC77767DCECBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD6CEFD6C0FFDFE47CB4BF2ACC40727 /* Foundation.framework */; };
+		38DF8597DFBB2C45F084A827B1F990BC /* FlukyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE399CC8FF17B9BC61FA56FDD223D5CB /* FlukyProtocol.swift */; };
+		38E0AC66A5D3ECA864827ECAA0C9D454 /* FlukyImageView+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A79D470B844BD076063EDBFB2E196 /* FlukyImageView+Create.swift */; };
+		397B2A86FC7EDA31036FB8950EBC92A8 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A4854EAB719C85BB2B02D9A98ECBCA /* Anchor.swift */; };
+		409D2125B60026DB9C1EDF81BF79CDB8 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F052837883552E5676D581EEEE2797 /* Spacing.swift */; };
+		42D72F5BD402AFA4E04B451E346DF34C /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED9AD429F2615416E775918C7E5259 /* Calculator.swift */; };
+		4B2FFDBE28C4BDC37A22F64B715C8753 /* Fluky.h in Headers */ = {isa = PBXBuildFile; fileRef = E830CD51644992B32651C6E4784A2366 /* Fluky.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C8E14571C9F6DFD1FBA41D419B1694C /* FlukyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D8DDFF58BE6BB29D3A669F738404D /* FlukyType.swift */; };
+		6C2A152BE724AF0F5FC8862153C9201E /* FlukyProtocol+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1548FE3D088661DF909B55695CD73D5 /* FlukyProtocol+Default.swift */; };
+		73BA751FA9F761178D0D5A17BEBC9ACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD6CEFD6C0FFDFE47CB4BF2ACC40727 /* Foundation.framework */; };
+		748EC12574EE58474E3533C0A5EFAFDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD6CEFD6C0FFDFE47CB4BF2ACC40727 /* Foundation.framework */; };
+		8144AA31905BD2425BDCED70D0876119 /* UIStackView+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78088CB79AD694205C6110A9F789A56 /* UIStackView+Create.swift */; };
+		860925D42E73E91724DD78A5ADDDE067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD6CEFD6C0FFDFE47CB4BF2ACC40727 /* Foundation.framework */; };
+		8720D84AF30289DD107A95B32D05F0D2 /* FlukyLinearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D497E1463E202E0D74F149C49382ED57 /* FlukyLinearView.swift */; };
+		89C8842C8771045EA52AC9D5099D89EB /* EFFlukyProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8B69165F712F89EA28878C109A8BCD /* EFFlukyProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE16EF28C670EC4D746682264658293 /* UIView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA8EBCADADA831E4EE5525DB9980CA /* UIView+Add.swift */; };
+		931413D06087B502AB4D793A09E1ECAB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F936517302A9D5929BB7A0F0BF5ED4C /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D127FD4B32958BCF265AD2EFB98CC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFD27B65FA10F6E63A13CFBD00DA9D7 /* QuartzCore.framework */; };
+		9B28FEA26F7524D69C3FD107BC4226DA /* Pods-EFFlukyProgressHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF37A5E31BB5BD8019F2F0C2C8E7E427 /* Pods-EFFlukyProgressHUD_Tests-dummy.m */; };
+		A7659F401B41B11D161520110E9F1A2E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A8CFFF46AC8711BED002AFCE0C64A0 /* MBProgressHUD.m */; };
+		AD2E4783E90D8183231CF33102A6B9DD /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE5D870731B2E584F08128960485711 /* MBProgressHUD.framework */; };
+		B0025F1CADC76532A4EEFCAB18B1364D /* UIStackView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C025655C9939F20511FD288F356D114 /* UIStackView+Add.swift */; };
+		B2AC4E5F35871D11E8496C16DB7BC3B7 /* Pods-EFFlukyProgressHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9889E64AD9C992AB570D7F1FFF52ED0C /* Pods-EFFlukyProgressHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2D4AC0EBCED9606557FD65545242EAC /* Fluky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE7A622D19FC4620CC6272DE88A7477 /* Fluky.framework */; };
+		BFF4B4517E6D85F50D8146BE5AA88755 /* FlukyBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB6E0F3E1D7230F5B993961213E450E /* FlukyBoxView.swift */; };
+		CCEE5D51BF3F127F86CA0BF5B323917A /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714D4D272DFAD1137A750731F2C9EAA /* Duration.swift */; };
+		D1AA9A49BD33CFA08296AD336B2E6EDA /* EFFlukyProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F2C18B3276ABBFD15FBF6094FBAFBE /* EFFlukyProgressHUD-dummy.m */; };
+		D5A05F532F4D5536A772712B3E9D9FBB /* FlukySingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18CCDC0CC53B12BC285658F1F05C298 /* FlukySingleView.swift */; };
+		D6D4FC50458EAE0BE33722DDAAF26EEF /* Fluky-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373B911F2E7C79821AC99888A9F15590 /* Fluky-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9ED83CA5B1A09302DDA2A5F8A010470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD6CEFD6C0FFDFE47CB4BF2ACC40727 /* Foundation.framework */; };
+		DE4306E53634654FA7F5A0ABD59EDFFE /* Array+Chunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8A09EB52FE427C22B341481A09B5F5 /* Array+Chunk.swift */; };
+		E41901CCD47D2C7C463A88CA2886E2D8 /* FlukyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0E86E4ED4FAC447A98C464C3E295B4 /* FlukyImageView.swift */; };
+		E970C203BAF4E545B8865D8B59CA65DF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C79DDE379A4143A9E3668CB2685AC2D /* MBProgressHUD-dummy.m */; };
+		ED12C4402510E6960BA06C23427934B4 /* FlukyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472BDB128CD7A3401D6D8B171B759DD1 /* FlukyView.swift */; };
+		F6CD60F3A79FF8E631355FEEF26F722B /* EFFlukyProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E667B3474226834782682FF11CB755A /* EFFlukyProgressHUD.swift */; };
+		FF260C8F734194D74213EAE2583A201D /* Damping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9E3B764E6810985FA4DED743DF523E /* Damping.swift */; };
+		FFCDC64624DE34A9069369CA8FA39008 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062FB031716E7FA7EEDD4A3EA86DBC16 /* Spring.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11203B72954FD2948B2E8A6CA960ED22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24046753C502F604AF2DA21581C5FF1C;
+			remoteInfo = Fluky;
+		};
+		139DCDFA1A81190B65FDD98B5D7CDA7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15908206E588BC11A9F313732B01F604;
+			remoteInfo = EFFlukyProgressHUD;
+		};
+		A36EB6A1CC65ED6C7161837DABCAD954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24046753C502F604AF2DA21581C5FF1C;
+			remoteInfo = Fluky;
+		};
+		AAFC7F68216E455D2A2B7311AA2A54F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1C80CB45BCF398354514CA17201E88;
+			remoteInfo = "Pods-EFFlukyProgressHUD_Example";
+		};
+		CC05B5A112320CFBA07F805184986382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6EB45C355C94EB268EF183FD6F35F6;
+			remoteInfo = MBProgressHUD;
+		};
+		D28EC1783FE28ECB9C05155CC89321B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6EB45C355C94EB268EF183FD6F35F6;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BD4B4A43815558390CB258EA129958 /* Pods_EFFlukyProgressHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFFlukyProgressHUD_Tests.framework; path = "Pods-EFFlukyProgressHUD_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		062FB031716E7FA7EEDD4A3EA86DBC16 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Fluky/Fluky/Style/Spring.swift; sourceTree = "<group>"; };
+		0C22A38CFEDD456B2F0863339A42F368 /* FlukyProtocol+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FlukyProtocol+Animate.swift"; path = "Fluky/Fluky/Extensions/FlukyProtocol+Animate.swift"; sourceTree = "<group>"; };
+		11A8CFFF46AC8711BED002AFCE0C64A0 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		16745F605374EB726B15E5A4DA60E3C2 /* Fluky.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Fluky.modulemap; sourceTree = "<group>"; };
+		1F936517302A9D5929BB7A0F0BF5ED4C /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		21BBE9D8ECAC4235E52A9CE3DDAB9301 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		24B49DDF36C10782E2D9F259B5E5468F /* Pods-EFFlukyProgressHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFFlukyProgressHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		27607D70C18E4C3CE32AB8BE836FF9B5 /* Pods-EFFlukyProgressHUD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFFlukyProgressHUD_Tests-Info.plist"; sourceTree = "<group>"; };
+		2D4ABF711F3BACEC15ED22D26B5E0401 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		2FB6E0F3E1D7230F5B993961213E450E /* FlukyBoxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlukyBoxView.swift; path = Fluky/Fluky/Views/FlukyBoxView.swift; sourceTree = "<group>"; };
+		31F2C18B3276ABBFD15FBF6094FBAFBE /* EFFlukyProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFFlukyProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		373B911F2E7C79821AC99888A9F15590 /* Fluky-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fluky-umbrella.h"; sourceTree = "<group>"; };
+		3B28497DBC6315F5E7C62B6250A5B2AD /* Pods_EFFlukyProgressHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFFlukyProgressHUD_Example.framework; path = "Pods-EFFlukyProgressHUD_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B915B9A8C6EBE67278FE47CDF4C96D6 /* EFFlukyProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EFFlukyProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		3E9E3B764E6810985FA4DED743DF523E /* Damping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Damping.swift; path = Fluky/Fluky/Style/Damping.swift; sourceTree = "<group>"; };
+		3F3E583EF11EBAF54E9244DBE33AAC06 /* Pods-EFFlukyProgressHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFFlukyProgressHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4277CDD8B835E4389F9C38C180EE140D /* Pods-EFFlukyProgressHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFFlukyProgressHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4714D4D272DFAD1137A750731F2C9EAA /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = Fluky/Fluky/Style/Duration.swift; sourceTree = "<group>"; };
+		472BDB128CD7A3401D6D8B171B759DD1 /* FlukyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlukyView.swift; path = Fluky/Fluky/Typealias/FlukyView.swift; sourceTree = "<group>"; };
+		4CE5D870731B2E584F08128960485711 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D49FDECA69C32E33DED45047A53A7FD /* Fluky-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Fluky-Info.plist"; sourceTree = "<group>"; };
+		4E3A79D470B844BD076063EDBFB2E196 /* FlukyImageView+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FlukyImageView+Create.swift"; path = "Fluky/Fluky/Extensions/FlukyImageView+Create.swift"; sourceTree = "<group>"; };
+		4E42D568AEF13ABA42E8A25C50DE366E /* Fluky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fluky.framework; path = Fluky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A4854EAB719C85BB2B02D9A98ECBCA /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = Fluky/Fluky/Extensions/Anchor.swift; sourceTree = "<group>"; };
+		5B8C63D80528D4804466859D4B79A21D /* Pods-EFFlukyProgressHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFFlukyProgressHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C79DDE379A4143A9E3668CB2685AC2D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		5F28B674D5D5CBD82FC62B7AAAE8A58E /* EFFlukyProgressHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EFFlukyProgressHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F6C4F1D0ED0677E12A459E0A44DA2E6 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		623BE01779D7208A1CE333B6E7B7DEF0 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		69042B581B0B5794D86AAAD95575081B /* Fluky-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fluky-dummy.m"; sourceTree = "<group>"; };
+		6C025655C9939F20511FD288F356D114 /* UIStackView+Add.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Add.swift"; path = "Fluky/Fluky/Extensions/UIStackView+Add.swift"; sourceTree = "<group>"; };
+		6C810E988747E4E8329FA422B0A95DBE /* Pods-EFFlukyProgressHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFFlukyProgressHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6E667B3474226834782682FF11CB755A /* EFFlukyProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFFlukyProgressHUD.swift; path = EFFlukyProgressHUD/Classes/EFFlukyProgressHUD.swift; sourceTree = "<group>"; };
+		790868B7E6DF94BFB1574157090C6149 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C378188A7E75B0D1A5168949E4E1F7C /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		7FC0BE7FCAF1CD4C4644C6F5BEEEDDE0 /* Pods-EFFlukyProgressHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EFFlukyProgressHUD_Tests.modulemap"; sourceTree = "<group>"; };
+		7FFF442703EF499E127938BD34CFED07 /* Pods-EFFlukyProgressHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFFlukyProgressHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		841D2ABB50A54481F1669555F1815798 /* Pods-EFFlukyProgressHUD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFFlukyProgressHUD_Example-Info.plist"; sourceTree = "<group>"; };
+		848D84DC7ECA9992E6170F2DD94D25E7 /* NSObject+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Create.swift"; path = "Fluky/Fluky/Extensions/NSObject+Create.swift"; sourceTree = "<group>"; };
+		8BA5244488EA8C27F71944204B9B07DA /* Pods-EFFlukyProgressHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFFlukyProgressHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8CFD27B65FA10F6E63A13CFBD00DA9D7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8E8A09EB52FE427C22B341481A09B5F5 /* Array+Chunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Chunk.swift"; path = "Fluky/Fluky/Extensions/Array+Chunk.swift"; sourceTree = "<group>"; };
+		922C939E79C50EB3666BBE427C189B28 /* EFFlukyProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFFlukyProgressHUD.modulemap; sourceTree = "<group>"; };
+		943D8DDFF58BE6BB29D3A669F738404D /* FlukyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlukyType.swift; path = Fluky/Fluky/Enumerations/FlukyType.swift; sourceTree = "<group>"; };
+		9889E64AD9C992AB570D7F1FFF52ED0C /* Pods-EFFlukyProgressHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFFlukyProgressHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD399BC90E459E6829C4943EDF2F3B4 /* Fluky-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fluky-prefix.pch"; sourceTree = "<group>"; };
+		A7F052837883552E5676D581EEEE2797 /* Spacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spacing.swift; path = Fluky/Fluky/Style/Spacing.swift; sourceTree = "<group>"; };
+		B1ED9AD429F2615416E775918C7E5259 /* Calculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calculator.swift; path = Fluky/Fluky/Helpers/Calculator.swift; sourceTree = "<group>"; };
+		B546097A776D245473B14E148B8CC442 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		B8A8ED5FC57D854783626600A4DFB6B0 /* Fluky.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fluky.swift; path = Fluky/Fluky/Factory/Fluky.swift; sourceTree = "<group>"; };
+		BE1180EE6E68C981810CECE2DD8D8FFC /* Pods-EFFlukyProgressHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFFlukyProgressHUD_Example-dummy.m"; sourceTree = "<group>"; };
+		C0951949FA94C2A09760B68BECED8E7C /* Pods-EFFlukyProgressHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFFlukyProgressHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D18CCDC0CC53B12BC285658F1F05C298 /* FlukySingleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlukySingleView.swift; path = Fluky/Fluky/Views/FlukySingleView.swift; sourceTree = "<group>"; };
+		D497E1463E202E0D74F149C49382ED57 /* FlukyLinearView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlukyLinearView.swift; path = Fluky/Fluky/Views/FlukyLinearView.swift; sourceTree = "<group>"; };
+		D519D3D1D462D0D727C4E2B0EFAB417C /* Pods-EFFlukyProgressHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EFFlukyProgressHUD_Example.modulemap"; sourceTree = "<group>"; };
+		D72B6D9736AC74A0305D732A8EF6C0B3 /* EFFlukyProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFFlukyProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		DCD6CEFD6C0FFDFE47CB4BF2ACC40727 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E1548FE3D088661DF909B55695CD73D5 /* FlukyProtocol+Default.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FlukyProtocol+Default.swift"; path = "Fluky/Fluky/Extensions/FlukyProtocol+Default.swift"; sourceTree = "<group>"; };
+		E1BCD3E22B42DCE1B7B7D1061D292907 /* Pods-EFFlukyProgressHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFFlukyProgressHUD_Example-umbrella.h"; sourceTree = "<group>"; };
+		E3B9C25BFEAE3A2890860DF2DFB1A095 /* EFFlukyProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFFlukyProgressHUD.xcconfig; sourceTree = "<group>"; };
+		E830CD51644992B32651C6E4784A2366 /* Fluky.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fluky.h; path = Fluky/Fluky/Fluky.h; sourceTree = "<group>"; };
+		EA1B30686ED9CA168F8DAF88934C3AF6 /* Fluky.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fluky.xcconfig; sourceTree = "<group>"; };
+		EB8B69165F712F89EA28878C109A8BCD /* EFFlukyProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFFlukyProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		EDA0DBC4D9887B6DE7C6C976C5A4D216 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		EE0E86E4ED4FAC447A98C464C3E295B4 /* FlukyImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlukyImageView.swift; path = Fluky/Fluky/Views/FlukyImageView.swift; sourceTree = "<group>"; };
+		EE872E841F368E8AD9E7371B43B761CB /* Sequence+Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Sequence+Transform.swift"; path = "Fluky/Fluky/Extensions/Sequence+Transform.swift"; sourceTree = "<group>"; };
+		EF37A5E31BB5BD8019F2F0C2C8E7E427 /* Pods-EFFlukyProgressHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFFlukyProgressHUD_Tests-dummy.m"; sourceTree = "<group>"; };
+		F3AA8EBCADADA831E4EE5525DB9980CA /* UIView+Add.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Add.swift"; path = "Fluky/Fluky/Extensions/UIView+Add.swift"; sourceTree = "<group>"; };
+		F40770A4C304B6F8B6163FAD7553275B /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		F53337D0DC545BAA4F500C04C116F617 /* Pods-EFFlukyProgressHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFFlukyProgressHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F78088CB79AD694205C6110A9F789A56 /* UIStackView+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Create.swift"; path = "Fluky/Fluky/Extensions/UIStackView+Create.swift"; sourceTree = "<group>"; };
+		F80D5FF9E8E760E9D61BF1E9D1AA3A38 /* EFFlukyProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFFlukyProgressHUD.framework; path = EFFlukyProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE399CC8FF17B9BC61FA56FDD223D5CB /* FlukyProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlukyProtocol.swift; path = Fluky/Fluky/Protocols/FlukyProtocol.swift; sourceTree = "<group>"; };
+		FFE7A622D19FC4620CC6272DE88A7477 /* Fluky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fluky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F474AD103E7AE8898206395927DA8D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D2D04FED47DB5069CAC77767DCECBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CEA6638CB5794B2C8BEEF8DDA9F813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002DC3959117FF788E463526C2AE7B03 /* CoreGraphics.framework in Frameworks */,
+				860925D42E73E91724DD78A5ADDDE067 /* Foundation.framework in Frameworks */,
+				96D127FD4B32958BCF265AD2EFB98CC7 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B99BE7B66C344A8E116D2442BD37C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BA751FA9F761178D0D5A17BEBC9ACF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FDE791438476EE97D7292A88ABDF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9ED83CA5B1A09302DDA2A5F8A010470 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACB8D3BBFB7726BFD147D1A4AB4FBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D4AC0EBCED9606557FD65545242EAC /* Fluky.framework in Frameworks */,
+				748EC12574EE58474E3533C0A5EFAFDB /* Foundation.framework in Frameworks */,
+				AD2E4783E90D8183231CF33102A6B9DD /* MBProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B06A2641CA94DDBD5983E02493D5791 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0DBC4D9887B6DE7C6C976C5A4D216 /* CoreGraphics.framework */,
+				DCD6CEFD6C0FFDFE47CB4BF2ACC40727 /* Foundation.framework */,
+				8CFD27B65FA10F6E63A13CFBD00DA9D7 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		27B6E1DBA35CC91E81EEADADD33CFB7B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39704F20E29D6E4CE0EE3D0D0F669475 /* Pods-EFFlukyProgressHUD_Example */,
+				648EC06EC1B388B16A65F4DFFD5BD4E0 /* Pods-EFFlukyProgressHUD_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39704F20E29D6E4CE0EE3D0D0F669475 /* Pods-EFFlukyProgressHUD_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D519D3D1D462D0D727C4E2B0EFAB417C /* Pods-EFFlukyProgressHUD_Example.modulemap */,
+				F53337D0DC545BAA4F500C04C116F617 /* Pods-EFFlukyProgressHUD_Example-acknowledgements.markdown */,
+				C0951949FA94C2A09760B68BECED8E7C /* Pods-EFFlukyProgressHUD_Example-acknowledgements.plist */,
+				BE1180EE6E68C981810CECE2DD8D8FFC /* Pods-EFFlukyProgressHUD_Example-dummy.m */,
+				4277CDD8B835E4389F9C38C180EE140D /* Pods-EFFlukyProgressHUD_Example-frameworks.sh */,
+				841D2ABB50A54481F1669555F1815798 /* Pods-EFFlukyProgressHUD_Example-Info.plist */,
+				E1BCD3E22B42DCE1B7B7D1061D292907 /* Pods-EFFlukyProgressHUD_Example-umbrella.h */,
+				6C810E988747E4E8329FA422B0A95DBE /* Pods-EFFlukyProgressHUD_Example.debug.xcconfig */,
+				8BA5244488EA8C27F71944204B9B07DA /* Pods-EFFlukyProgressHUD_Example.release.xcconfig */,
+			);
+			name = "Pods-EFFlukyProgressHUD_Example";
+			path = "Target Support Files/Pods-EFFlukyProgressHUD_Example";
+			sourceTree = "<group>";
+		};
+		49785035DD044F1FB2E8A80BDACFC3DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFE7A622D19FC4620CC6272DE88A7477 /* Fluky.framework */,
+				4CE5D870731B2E584F08128960485711 /* MBProgressHUD.framework */,
+				0B06A2641CA94DDBD5983E02493D5791 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		536B3C5E170DE4918714999DCA0088C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FA7F0C1EEA6C6F1DBC9ACBD309D3A96 /* Fluky */,
+				DE49FE587F857EC9A69A8D5B47763C85 /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		648EC06EC1B388B16A65F4DFFD5BD4E0 /* Pods-EFFlukyProgressHUD_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7FC0BE7FCAF1CD4C4644C6F5BEEEDDE0 /* Pods-EFFlukyProgressHUD_Tests.modulemap */,
+				3F3E583EF11EBAF54E9244DBE33AAC06 /* Pods-EFFlukyProgressHUD_Tests-acknowledgements.markdown */,
+				5B8C63D80528D4804466859D4B79A21D /* Pods-EFFlukyProgressHUD_Tests-acknowledgements.plist */,
+				EF37A5E31BB5BD8019F2F0C2C8E7E427 /* Pods-EFFlukyProgressHUD_Tests-dummy.m */,
+				27607D70C18E4C3CE32AB8BE836FF9B5 /* Pods-EFFlukyProgressHUD_Tests-Info.plist */,
+				9889E64AD9C992AB570D7F1FFF52ED0C /* Pods-EFFlukyProgressHUD_Tests-umbrella.h */,
+				24B49DDF36C10782E2D9F259B5E5468F /* Pods-EFFlukyProgressHUD_Tests.debug.xcconfig */,
+				7FFF442703EF499E127938BD34CFED07 /* Pods-EFFlukyProgressHUD_Tests.release.xcconfig */,
+			);
+			name = "Pods-EFFlukyProgressHUD_Tests";
+			path = "Target Support Files/Pods-EFFlukyProgressHUD_Tests";
+			sourceTree = "<group>";
+		};
+		6FA7F0C1EEA6C6F1DBC9ACBD309D3A96 /* Fluky */ = {
+			isa = PBXGroup;
+			children = (
+				50A4854EAB719C85BB2B02D9A98ECBCA /* Anchor.swift */,
+				8E8A09EB52FE427C22B341481A09B5F5 /* Array+Chunk.swift */,
+				B1ED9AD429F2615416E775918C7E5259 /* Calculator.swift */,
+				3E9E3B764E6810985FA4DED743DF523E /* Damping.swift */,
+				4714D4D272DFAD1137A750731F2C9EAA /* Duration.swift */,
+				E830CD51644992B32651C6E4784A2366 /* Fluky.h */,
+				B8A8ED5FC57D854783626600A4DFB6B0 /* Fluky.swift */,
+				2FB6E0F3E1D7230F5B993961213E450E /* FlukyBoxView.swift */,
+				EE0E86E4ED4FAC447A98C464C3E295B4 /* FlukyImageView.swift */,
+				4E3A79D470B844BD076063EDBFB2E196 /* FlukyImageView+Create.swift */,
+				D497E1463E202E0D74F149C49382ED57 /* FlukyLinearView.swift */,
+				FE399CC8FF17B9BC61FA56FDD223D5CB /* FlukyProtocol.swift */,
+				0C22A38CFEDD456B2F0863339A42F368 /* FlukyProtocol+Animate.swift */,
+				E1548FE3D088661DF909B55695CD73D5 /* FlukyProtocol+Default.swift */,
+				D18CCDC0CC53B12BC285658F1F05C298 /* FlukySingleView.swift */,
+				943D8DDFF58BE6BB29D3A669F738404D /* FlukyType.swift */,
+				472BDB128CD7A3401D6D8B171B759DD1 /* FlukyView.swift */,
+				848D84DC7ECA9992E6170F2DD94D25E7 /* NSObject+Create.swift */,
+				EE872E841F368E8AD9E7371B43B761CB /* Sequence+Transform.swift */,
+				A7F052837883552E5676D581EEEE2797 /* Spacing.swift */,
+				062FB031716E7FA7EEDD4A3EA86DBC16 /* Spring.swift */,
+				6C025655C9939F20511FD288F356D114 /* UIStackView+Add.swift */,
+				F78088CB79AD694205C6110A9F789A56 /* UIStackView+Create.swift */,
+				F3AA8EBCADADA831E4EE5525DB9980CA /* UIView+Add.swift */,
+				D10BA290634E96E9E45C1B7E508CD5AA /* Support Files */,
+			);
+			name = Fluky;
+			path = Fluky;
+			sourceTree = "<group>";
+		};
+		96F8236E26ED739EB463ADC948352FDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				922C939E79C50EB3666BBE427C189B28 /* EFFlukyProgressHUD.modulemap */,
+				E3B9C25BFEAE3A2890860DF2DFB1A095 /* EFFlukyProgressHUD.xcconfig */,
+				31F2C18B3276ABBFD15FBF6094FBAFBE /* EFFlukyProgressHUD-dummy.m */,
+				3B915B9A8C6EBE67278FE47CDF4C96D6 /* EFFlukyProgressHUD-Info.plist */,
+				D72B6D9736AC74A0305D732A8EF6C0B3 /* EFFlukyProgressHUD-prefix.pch */,
+				EB8B69165F712F89EA28878C109A8BCD /* EFFlukyProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EFFlukyProgressHUD";
+			sourceTree = "<group>";
+		};
+		9BC52C5DB6DC2A65EBD939643B21D817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80D5FF9E8E760E9D61BF1E9D1AA3A38 /* EFFlukyProgressHUD.framework */,
+				4E42D568AEF13ABA42E8A25C50DE366E /* Fluky.framework */,
+				5F6C4F1D0ED0677E12A459E0A44DA2E6 /* MBProgressHUD.framework */,
+				3B28497DBC6315F5E7C62B6250A5B2AD /* Pods_EFFlukyProgressHUD_Example.framework */,
+				04BD4B4A43815558390CB258EA129958 /* Pods_EFFlukyProgressHUD_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D466740062A6B8C49335D2484EFD46C8 /* Development Pods */,
+				49785035DD044F1FB2E8A80BDACFC3DD /* Frameworks */,
+				536B3C5E170DE4918714999DCA0088C9 /* Pods */,
+				9BC52C5DB6DC2A65EBD939643B21D817 /* Products */,
+				27B6E1DBA35CC91E81EEADADD33CFB7B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D10BA290634E96E9E45C1B7E508CD5AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16745F605374EB726B15E5A4DA60E3C2 /* Fluky.modulemap */,
+				EA1B30686ED9CA168F8DAF88934C3AF6 /* Fluky.xcconfig */,
+				69042B581B0B5794D86AAAD95575081B /* Fluky-dummy.m */,
+				4D49FDECA69C32E33DED45047A53A7FD /* Fluky-Info.plist */,
+				9FD399BC90E459E6829C4943EDF2F3B4 /* Fluky-prefix.pch */,
+				373B911F2E7C79821AC99888A9F15590 /* Fluky-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fluky";
+			sourceTree = "<group>";
+		};
+		D16DB4991809D1C3F84822A9D627A531 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				623BE01779D7208A1CE333B6E7B7DEF0 /* MBProgressHUD.modulemap */,
+				B546097A776D245473B14E148B8CC442 /* MBProgressHUD.xcconfig */,
+				5C79DDE379A4143A9E3668CB2685AC2D /* MBProgressHUD-dummy.m */,
+				7C378188A7E75B0D1A5168949E4E1F7C /* MBProgressHUD-Info.plist */,
+				F40770A4C304B6F8B6163FAD7553275B /* MBProgressHUD-prefix.pch */,
+				2D4ABF711F3BACEC15ED22D26B5E0401 /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		D26196419F4B9D1A27AA3D5ACB997D7E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5F28B674D5D5CBD82FC62B7AAAE8A58E /* EFFlukyProgressHUD.podspec */,
+				790868B7E6DF94BFB1574157090C6149 /* LICENSE */,
+				21BBE9D8ECAC4235E52A9CE3DDAB9301 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D466740062A6B8C49335D2484EFD46C8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5B128CE883B73FF3C1A8E06419DE166 /* EFFlukyProgressHUD */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DE49FE587F857EC9A69A8D5B47763C85 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1F936517302A9D5929BB7A0F0BF5ED4C /* MBProgressHUD.h */,
+				11A8CFFF46AC8711BED002AFCE0C64A0 /* MBProgressHUD.m */,
+				D16DB4991809D1C3F84822A9D627A531 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		E5B128CE883B73FF3C1A8E06419DE166 /* EFFlukyProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6E667B3474226834782682FF11CB755A /* EFFlukyProgressHUD.swift */,
+				D26196419F4B9D1A27AA3D5ACB997D7E /* Pod */,
+				96F8236E26ED739EB463ADC948352FDF /* Support Files */,
+			);
+			name = EFFlukyProgressHUD;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D67E770B9DFB1991A2587A48F2010F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DA51F4628E6AF4FC58A3CBD3E207E9 /* MBProgressHUD-umbrella.h in Headers */,
+				931413D06087B502AB4D793A09E1ECAB /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6A0CB81910C597F3C53D3E7C18CE03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3747FD9C2B725D6EFE7D72B9A101F714 /* Pods-EFFlukyProgressHUD_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667D9FFF64D58614462F64AC51713733 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D4FC50458EAE0BE33722DDAAF26EEF /* Fluky-umbrella.h in Headers */,
+				4B2FFDBE28C4BDC37A22F64B715C8753 /* Fluky.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB88D5B3E07C5ADA44BEC0D6338E51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C8842C8771045EA52AC9D5099D89EB /* EFFlukyProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8158C58AFB43E629DCB358F94ABCC77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AC4E5F35871D11E8496C16DB7BC3B7 /* Pods-EFFlukyProgressHUD_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15908206E588BC11A9F313732B01F604 /* EFFlukyProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F402C4F14165A9FCB87FA40382F998 /* Build configuration list for PBXNativeTarget "EFFlukyProgressHUD" */;
+			buildPhases = (
+				99FB88D5B3E07C5ADA44BEC0D6338E51 /* Headers */,
+				CB80F7DFA6858E6D9B34A76DAA3C594B /* Sources */,
+				CACB8D3BBFB7726BFD147D1A4AB4FBCD /* Frameworks */,
+				F2A89BC54B576BD9C66B4556F9079794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D0FF7C5D43268695C1B90F9AD07510C /* PBXTargetDependency */,
+				5F1EF1E9A464F21635D124DA694A3493 /* PBXTargetDependency */,
+			);
+			name = EFFlukyProgressHUD;
+			productName = EFFlukyProgressHUD;
+			productReference = F80D5FF9E8E760E9D61BF1E9D1AA3A38 /* EFFlukyProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		24046753C502F604AF2DA21581C5FF1C /* Fluky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171A27CBFF2E3B8C788E6254281CCEB2 /* Build configuration list for PBXNativeTarget "Fluky" */;
+			buildPhases = (
+				667D9FFF64D58614462F64AC51713733 /* Headers */,
+				143BD084C9E4770CCF240A115F2761A6 /* Sources */,
+				63FDE791438476EE97D7292A88ABDF20 /* Frameworks */,
+				9CF2A8E753158601C7AE72307881DE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fluky;
+			productName = Fluky;
+			productReference = 4E42D568AEF13ABA42E8A25C50DE366E /* Fluky.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF1C80CB45BCF398354514CA17201E88 /* Pods-EFFlukyProgressHUD_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448874467F3519F8BF775CDA900CFA9F /* Build configuration list for PBXNativeTarget "Pods-EFFlukyProgressHUD_Example" */;
+			buildPhases = (
+				5C6A0CB81910C597F3C53D3E7C18CE03 /* Headers */,
+				208BB9717A45EB0074DFF1EDE6EA33D9 /* Sources */,
+				4F474AD103E7AE8898206395927DA8D1 /* Frameworks */,
+				F8EA66AA4C62D1080A65A79B68331B0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA8511A40EE032F93080400C73E412C /* PBXTargetDependency */,
+				51F245303AF6538241B993AA87138F0C /* PBXTargetDependency */,
+				4C5DAD5FD5C1489D9BACA15F038DCF9B /* PBXTargetDependency */,
+			);
+			name = "Pods-EFFlukyProgressHUD_Example";
+			productName = "Pods-EFFlukyProgressHUD_Example";
+			productReference = 3B28497DBC6315F5E7C62B6250A5B2AD /* Pods_EFFlukyProgressHUD_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7D95884C9A95CA9042EF9CD7D90B9BC /* Pods-EFFlukyProgressHUD_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D876EDFBA45F146F0CCF74A85848EB8 /* Build configuration list for PBXNativeTarget "Pods-EFFlukyProgressHUD_Tests" */;
+			buildPhases = (
+				A8158C58AFB43E629DCB358F94ABCC77 /* Headers */,
+				C74196AD2D42DEF7B551685F809A7EC3 /* Sources */,
+				55B99BE7B66C344A8E116D2442BD37C7 /* Frameworks */,
+				797D8FF969550F89BB0175BF271A72BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5485B1CCC6DF4760D50B70E40309839E /* PBXTargetDependency */,
+			);
+			name = "Pods-EFFlukyProgressHUD_Tests";
+			productName = "Pods-EFFlukyProgressHUD_Tests";
+			productReference = 04BD4B4A43815558390CB258EA129958 /* Pods_EFFlukyProgressHUD_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC6EB45C355C94EB268EF183FD6F35F6 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508D5C4F28F0CD2DE9F494E30EA9DD84 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				0D67E770B9DFB1991A2587A48F2010F3 /* Headers */,
+				8D1A9231023B80F419781A5920970251 /* Sources */,
+				53CEA6638CB5794B2C8BEEF8DDA9F813 /* Frameworks */,
+				91D31DFF6E5A12DC19F5F0C6127DE1B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 5F6C4F1D0ED0677E12A459E0A44DA2E6 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9BC52C5DB6DC2A65EBD939643B21D817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15908206E588BC11A9F313732B01F604 /* EFFlukyProgressHUD */,
+				24046753C502F604AF2DA21581C5FF1C /* Fluky */,
+				EC6EB45C355C94EB268EF183FD6F35F6 /* MBProgressHUD */,
+				BF1C80CB45BCF398354514CA17201E88 /* Pods-EFFlukyProgressHUD_Example */,
+				E7D95884C9A95CA9042EF9CD7D90B9BC /* Pods-EFFlukyProgressHUD_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797D8FF969550F89BB0175BF271A72BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D31DFF6E5A12DC19F5F0C6127DE1B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF2A8E753158601C7AE72307881DE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A89BC54B576BD9C66B4556F9079794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EA66AA4C62D1080A65A79B68331B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143BD084C9E4770CCF240A115F2761A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397B2A86FC7EDA31036FB8950EBC92A8 /* Anchor.swift in Sources */,
+				DE4306E53634654FA7F5A0ABD59EDFFE /* Array+Chunk.swift in Sources */,
+				42D72F5BD402AFA4E04B451E346DF34C /* Calculator.swift in Sources */,
+				FF260C8F734194D74213EAE2583A201D /* Damping.swift in Sources */,
+				CCEE5D51BF3F127F86CA0BF5B323917A /* Duration.swift in Sources */,
+				1AD8E257D087516704B6C4B07796BFE8 /* Fluky-dummy.m in Sources */,
+				2D637FCCE683E1776436B9209E80DFC4 /* Fluky.swift in Sources */,
+				BFF4B4517E6D85F50D8146BE5AA88755 /* FlukyBoxView.swift in Sources */,
+				38E0AC66A5D3ECA864827ECAA0C9D454 /* FlukyImageView+Create.swift in Sources */,
+				E41901CCD47D2C7C463A88CA2886E2D8 /* FlukyImageView.swift in Sources */,
+				8720D84AF30289DD107A95B32D05F0D2 /* FlukyLinearView.swift in Sources */,
+				2C385887C65B8920B0BFCC1EB9EF65B5 /* FlukyProtocol+Animate.swift in Sources */,
+				6C2A152BE724AF0F5FC8862153C9201E /* FlukyProtocol+Default.swift in Sources */,
+				38DF8597DFBB2C45F084A827B1F990BC /* FlukyProtocol.swift in Sources */,
+				D5A05F532F4D5536A772712B3E9D9FBB /* FlukySingleView.swift in Sources */,
+				5C8E14571C9F6DFD1FBA41D419B1694C /* FlukyType.swift in Sources */,
+				ED12C4402510E6960BA06C23427934B4 /* FlukyView.swift in Sources */,
+				11579B0C69C5D5B98DB94C28E909651D /* NSObject+Create.swift in Sources */,
+				299EED930DBDD2D9E306A18F079FD534 /* Sequence+Transform.swift in Sources */,
+				409D2125B60026DB9C1EDF81BF79CDB8 /* Spacing.swift in Sources */,
+				FFCDC64624DE34A9069369CA8FA39008 /* Spring.swift in Sources */,
+				B0025F1CADC76532A4EEFCAB18B1364D /* UIStackView+Add.swift in Sources */,
+				8144AA31905BD2425BDCED70D0876119 /* UIStackView+Create.swift in Sources */,
+				8CE16EF28C670EC4D746682264658293 /* UIView+Add.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208BB9717A45EB0074DFF1EDE6EA33D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3891F261797486C37810BB07EB059948 /* Pods-EFFlukyProgressHUD_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1A9231023B80F419781A5920970251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E970C203BAF4E545B8865D8B59CA65DF /* MBProgressHUD-dummy.m in Sources */,
+				A7659F401B41B11D161520110E9F1A2E /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74196AD2D42DEF7B551685F809A7EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B28FEA26F7524D69C3FD107BC4226DA /* Pods-EFFlukyProgressHUD_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB80F7DFA6858E6D9B34A76DAA3C594B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AA9A49BD33CFA08296AD336B2E6EDA /* EFFlukyProgressHUD-dummy.m in Sources */,
+				F6CD60F3A79FF8E631355FEEF26F722B /* EFFlukyProgressHUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5DAD5FD5C1489D9BACA15F038DCF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = EC6EB45C355C94EB268EF183FD6F35F6 /* MBProgressHUD */;
+			targetProxy = CC05B5A112320CFBA07F805184986382 /* PBXContainerItemProxy */;
+		};
+		51F245303AF6538241B993AA87138F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fluky;
+			target = 24046753C502F604AF2DA21581C5FF1C /* Fluky */;
+			targetProxy = A36EB6A1CC65ED6C7161837DABCAD954 /* PBXContainerItemProxy */;
+		};
+		5485B1CCC6DF4760D50B70E40309839E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EFFlukyProgressHUD_Example";
+			target = BF1C80CB45BCF398354514CA17201E88 /* Pods-EFFlukyProgressHUD_Example */;
+			targetProxy = AAFC7F68216E455D2A2B7311AA2A54F5 /* PBXContainerItemProxy */;
+		};
+		5F1EF1E9A464F21635D124DA694A3493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = EC6EB45C355C94EB268EF183FD6F35F6 /* MBProgressHUD */;
+			targetProxy = D28EC1783FE28ECB9C05155CC89321B9 /* PBXContainerItemProxy */;
+		};
+		7D0FF7C5D43268695C1B90F9AD07510C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fluky;
+			target = 24046753C502F604AF2DA21581C5FF1C /* Fluky */;
+			targetProxy = 11203B72954FD2948B2E8A6CA960ED22 /* PBXContainerItemProxy */;
+		};
+		DAA8511A40EE032F93080400C73E412C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EFFlukyProgressHUD;
+			target = 15908206E588BC11A9F313732B01F604 /* EFFlukyProgressHUD */;
+			targetProxy = 139DCDFA1A81190B65FDD98B5D7CDA7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		006428043A7ED9249B5CB571083CE8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1B30686ED9CA168F8DAF88934C3AF6 /* Fluky.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Fluky/Fluky-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fluky/Fluky-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fluky/Fluky.modulemap";
+				PRODUCT_MODULE_NAME = Fluky;
+				PRODUCT_NAME = Fluky;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0D9CE99EA9F6861661A8F2C4D84B89D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FFF442703EF499E127938BD34CFED07 /* Pods-EFFlukyProgressHUD_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EFFlukyProgressHUD_Tests/Pods-EFFlukyProgressHUD_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFFlukyProgressHUD_Tests/Pods-EFFlukyProgressHUD_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A924B1D60481BC965DE0E380522B46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B49DDF36C10782E2D9F259B5E5468F /* Pods-EFFlukyProgressHUD_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EFFlukyProgressHUD_Tests/Pods-EFFlukyProgressHUD_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFFlukyProgressHUD_Tests/Pods-EFFlukyProgressHUD_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B965D707FACC62E3724ACA93A98E54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B546097A776D245473B14E148B8CC442 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CFB496316915774CD7764EB815D10E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C810E988747E4E8329FA422B0A95DBE /* Pods-EFFlukyProgressHUD_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C3608C79717B4A4C6FD8EDB517FAC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B546097A776D245473B14E148B8CC442 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7855C10043FD82482B316DC4722D85DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA5244488EA8C27F71944204B9B07DA /* Pods-EFFlukyProgressHUD_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFFlukyProgressHUD_Example/Pods-EFFlukyProgressHUD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E6126F2269905A83CCB9E6025308D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1B30686ED9CA168F8DAF88934C3AF6 /* Fluky.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Fluky/Fluky-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fluky/Fluky-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fluky/Fluky.modulemap";
+				PRODUCT_MODULE_NAME = Fluky;
+				PRODUCT_NAME = Fluky;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FA78ECD1776ACB8989EEF9AC33D8B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B9C25BFEAE3A2890860DF2DFB1A095 /* EFFlukyProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFFlukyProgressHUD/EFFlukyProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFFlukyProgressHUD/EFFlukyProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFFlukyProgressHUD/EFFlukyProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = EFFlukyProgressHUD;
+				PRODUCT_NAME = EFFlukyProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E5CC3A4440B8B985B5AE9F9C71E49E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B9C25BFEAE3A2890860DF2DFB1A095 /* EFFlukyProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFFlukyProgressHUD/EFFlukyProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFFlukyProgressHUD/EFFlukyProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFFlukyProgressHUD/EFFlukyProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = EFFlukyProgressHUD;
+				PRODUCT_NAME = EFFlukyProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F402C4F14165A9FCB87FA40382F998 /* Build configuration list for PBXNativeTarget "EFFlukyProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA78ECD1776ACB8989EEF9AC33D8B4D /* Debug */,
+				E5CC3A4440B8B985B5AE9F9C71E49E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171A27CBFF2E3B8C788E6254281CCEB2 /* Build configuration list for PBXNativeTarget "Fluky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006428043A7ED9249B5CB571083CE8A8 /* Debug */,
+				7E6126F2269905A83CCB9E6025308D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448874467F3519F8BF775CDA900CFA9F /* Build configuration list for PBXNativeTarget "Pods-EFFlukyProgressHUD_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFB496316915774CD7764EB815D10E6 /* Debug */,
+				7855C10043FD82482B316DC4722D85DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		508D5C4F28F0CD2DE9F494E30EA9DD84 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3608C79717B4A4C6FD8EDB517FAC55 /* Debug */,
+				1B965D707FACC62E3724ACA93A98E54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D876EDFBA45F146F0CCF74A85848EB8 /* Build configuration list for PBXNativeTarget "Pods-EFFlukyProgressHUD_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A924B1D60481BC965DE0E380522B46E /* Debug */,
+				0D9CE99EA9F6861661A8F2C4D84B89D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
