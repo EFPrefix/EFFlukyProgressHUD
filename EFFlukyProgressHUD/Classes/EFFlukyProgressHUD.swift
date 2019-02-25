@@ -1,5 +1,8 @@
+
 import Fluky
 import MBProgressHUD
+
+public typealias EFFlukyType = FlukyType
 
 private extension UIImage {
 
@@ -12,7 +15,7 @@ private extension UIImage {
 public class EFFlukyProgressHUD: MBProgressHUD {
 
     // MARK: Public
-    public init(flukyType: FlukyType, flukyImages: [UIImage]? = nil) {
+    public init(flukyType: EFFlukyType, flukyImages: [UIImage]? = nil) {
         self.flukyType = flukyType
         if let flukyImages = flukyImages {
             self.flukyImages = flukyImages
@@ -45,7 +48,7 @@ public class EFFlukyProgressHUD: MBProgressHUD {
         self.flukyView?.stop()
     }
 
-    public func setFlukyType(_ type: FlukyType, andSize: CGSize) {
+    public func setFlukyType(_ type: EFFlukyType, andSize: CGSize) {
         self.flukyType = type
         refreshFluky()
     }
@@ -56,7 +59,7 @@ public class EFFlukyProgressHUD: MBProgressHUD {
     }
 
     // MARK: Private
-    private(set) var flukyType: FlukyType = FlukyType.box
+    private(set) var flukyType: EFFlukyType = EFFlukyType.box
     private(set) var flukyImages: [UIImage] = [
         UIImage.loadImage(named: "iconCircular")!,
         UIImage.loadImage(named: "iconCross")!,

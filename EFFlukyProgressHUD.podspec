@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'EFFlukyProgressHUD'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'An ordinary custom loading view.'
 
   s.description      = <<-DESC

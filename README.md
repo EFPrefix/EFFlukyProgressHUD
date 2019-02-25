@@ -44,7 +44,7 @@ Or you can custom it:
 
 ```swift
 // 2.
-let hub: EFFlukyProgressHUD = EFFlukyProgressHUD(flukyType: FlukyType.single)
+let hub: EFFlukyProgressHUD = EFFlukyProgressHUD(flukyType: EFFlukyType.single)
 self.view.addSubview(hub)
 hub.show(animated: true)
 ```

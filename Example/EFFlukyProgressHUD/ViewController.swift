@@ -8,7 +8,6 @@
 
 import UIKit
 import EFFlukyProgressHUD
-import Fluky
 
 class ViewController: UIViewController {
 
@@ -19,7 +18,7 @@ class ViewController: UIViewController {
         EFFlukyProgressHUD.showAdded(to: self.view, animated: true)
 
         // 2.
-        // let hub: EFFlukyProgressHUD = EFFlukyProgressHUD(flukyType: FlukyType.single)
+        // let hub: EFFlukyProgressHUD = EFFlukyProgressHUD(flukyType: EFFlukyType.single)
         // self.view.addSubview(hub)
         // hub.show(animated: true)
     }
