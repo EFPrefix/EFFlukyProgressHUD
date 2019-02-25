@@ -5,6 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/EFFlukyProgressHUD.svg?style=flat)](https://cocoapods.org/pods/EFFlukyProgressHUD)
 [![Platform](https://img.shields.io/cocoapods/p/EFFlukyProgressHUD.svg?style=flat)](https://cocoapods.org/pods/EFFlukyProgressHUD)
 
+EFFlukyProgressHUD is an ordinary custom loading hub, simply combines `MBProgressHUD` with `Fluky`.
+
+## Preview
+
+| Single  | Linear | Box |
+|:-:|:-:|:-:|
+| ![](https://github.com/EFPrefix/EFFlukyProgressHUD/blob/master/Assets/single.gif?raw=true) | ![](https://github.com/EFPrefix/EFFlukyProgressHUD/blob/master/Assets/linear.gif?raw=true) | ![](https://github.com/EFPrefix/EFFlukyProgressHUD/blob/master/Assets/box.gif?raw=true) |
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -49,4 +57,4 @@ EyreFree, eyrefree@eyrefree.org
 
 ## License
 
-EFFlukyProgressHUD is available under the MIT license. See the LICENSE file for more info.
+EFFlukyProgressHUD is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
