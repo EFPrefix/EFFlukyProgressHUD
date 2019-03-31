@@ -23,6 +23,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 - Swift 4.2+
 - iOS 9.0+
 
+| Version | Needs                                                       |
+|:---------|:-----------------------------------------------|
+| <5.0     | Xcode 10.0+<br>Swift 4.2+<br>iOS 8.0+|
+| 5.x       | Xcode 10.2+<br>Swift 5.0+<br>iOS 8.0+|
+
 ## Installation
 
 EFFlukyProgressHUD is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
